@@ -43,7 +43,9 @@ The samples XML format allows us to define many samples inside a `<SAMPLE_SET>` 
 ```{note}
 Sample aliases are defined within the `<SAMPLE>` tag, e.g. `<SAMPLE alias='this_alias'>`.
 In the example data, the alias has been suffixed with the word 'programmatic'. This is to avoid clashes with the same samples 
-that were submitted interactively in the previous section. Aliases must be unique.
+that were submitted interactively in the previous section. 
+
+**Aliases must be unique.**
 ```
 
 #### Submit the samples
