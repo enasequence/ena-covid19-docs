@@ -67,7 +67,7 @@ Sometimes, erroneous metadata can be uploaded, and the sample needs to be update
 ```bash
 curl -u username:password -F "SUBMISSION=@submission_modify.xml" -F "SAMPLE=@samples.xml" "https://wwwdev.ebi.ac.uk/ena/submit/drop-box/submit/"
 ```
-3. check the receipt for successful update
+Check the receipt for successful update. Note, it will also report the samples that _haven't_ been updated.
 
 ```{warning}
 Although sample metadata can be updated, these updates are not automatically propagated to the EMBL files of their sequences. This 
