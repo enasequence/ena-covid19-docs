@@ -210,7 +210,7 @@
       </SAMPLE_ATTRIBUTE>
     </SAMPLE_ATTRIBUTES>
   </SAMPLE>
-  <SAMPLE alias="SARS Sample 3">
+  <SAMPLE alias="SARS Sample 3 programmatic">
     <TITLE>SARS Sample 3</TITLE>
     <SAMPLE_NAME>
       <TAXON_ID>2697049</TAXON_ID>
