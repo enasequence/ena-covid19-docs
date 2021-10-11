@@ -2,8 +2,9 @@
 
 ## Introduction
 
-In this workshop, we will begin by stepping through the available options to submit SARS-CoV-2 data to the European 
-Nucleotide Archive using a series of example data and files we've prepared for you. For a complete submissions guide, please see [here](sars-cov-2-submissions.html).
+In this workshop, we will begin by stepping through the available options to submit SARS-CoV-2 data to the European Nucleotide Archive using a series of example data and files we've prepared for you. For a complete submissions guide, please see [here](sars-cov-2-submissions.html).
+
+The goal of this workshop is to submit 3 samples to an example project, along with raw read data and sequences associated with each sample. We will do this using a number of different submission options.
 
 ### Metadata Model Guide
 

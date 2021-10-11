@@ -1,7 +1,7 @@
 # Registering Samples
 
 <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; height: auto;">
-    <iframe src="https://www.youtube.com/embed/ChCsqoq-r-Y" frameborder="0" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
+    <iframe src="https://www.youtube.com/embed/FIcdsb-NNuM" frameborder="0" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
 </div><br/>
 
 - [ERC000033 metadata checklist](https://www.ebi.ac.uk/ena/browser/view/ERC000033)
@@ -16,7 +16,9 @@ For this, we will use the materials in the `samples/interactive/` folder of the 
 
 In both cases, each row represents a sample and each column represents a metadata field.
 
-#### Video 
+To upload, simply visit the (Webin Submissions Portal)[https://wwwdev.ebi.ac.uk/ena/submit/webin/] again and click on the green 'Register Samples' button. Choose to 'Upload filled spreadsheet' and upload the example sheet provided: `samples/interactive/sample_spreadsheet.tsv`. You should get a popup showing a successful submission and your 3 new sample accessions.
+
+![](../images/wsp_accession.register_samples.png)
 
 ## Programmatic
 
