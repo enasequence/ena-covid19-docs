@@ -78,5 +78,5 @@ we will endeavour to assist you.
 ```
 
 ```{tip}
-Now we have our samples registered to our project, it's time to add some data files. We'll start with [submitting raw read data](submit_reads.html).
+Now we have our samples registered to our project, it's time to add some data files. We'll start with [submitting raw read data](submit_reads).
 ```
