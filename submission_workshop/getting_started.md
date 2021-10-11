@@ -30,7 +30,7 @@ instead of `www`. Submissions to this service are removed nightly.
 
 ### Workshop Setup
 
-Before we begin, please download the example data [here](https://github.com/enasequence/ena-covid19-docs/raw/master/submission_workshop/example_data.zip) and unzip it. For this tutorial, you will need:
+Before we begin, please download the example data [here](https://github.com/enasequence/ena-covid19-docs/raw/master/submission_workshop/example_data.tar.gz) and unzip it. For this tutorial, you will need:
 - a means to view/edit spreadsheets in Microsoft Excel format and a text editor,
 ideally something with syntax highlighting for XML formatted files.
 - a command line utility with [cURL](https://curl.se/) installed.
