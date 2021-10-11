@@ -58,7 +58,7 @@ Again, you should receive a receipt XML with information about submission succes
 For more general information on programmatic sample registration, please see [our documentation](https://ena-docs.readthedocs.io/en/latest/submit/samples/programmatic.html).
 
 #### Modifying a sample
-Sample metadata can be updated at a later date. This can be achieved by editing the sample XML file to update the relevant fields, and resubmitting with a submission XML containing the `<MODIFY/>` action in place of `<ADD/>`.
+Sometimes, erroneous metadata can be uploaded, and the sample needs to be updated at a later date. This can be achieved by editing the sample XML file to update the relevant fields, and resubmitting with a submission XML containing the `<MODIFY/>` action in place of `<ADD/>`.
 
 1. First, check your submitted sample in our browser using one of your accessions in the search box: [https://wwwdev.ebi.ac.uk/ena/browser/home](https://wwwdev.ebi.ac.uk/ena/browser/home)
 2. Now, open the `samples.xml` file and update a metadata field of your choice. e.g. new collection date. Save the file.
