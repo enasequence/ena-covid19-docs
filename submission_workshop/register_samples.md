@@ -62,14 +62,12 @@ For more general information on programmatic sample registration, please see [ou
 #### Modifying a sample
 Sometimes, erroneous metadata can be uploaded, and the sample needs to be updated at a later date. This can be achieved by editing the sample XML file to update the relevant fields, and resubmitting with a submission XML containing the `<MODIFY/>` action in place of `<ADD/>`.
 
-1. First, check your submitted sample in our browser using one of your accessions in the search box: [https://wwwdev.ebi.ac.uk/ena/browser/home](https://wwwdev.ebi.ac.uk/ena/browser/home)
-2. Now, open the `samples.xml` file and update a metadata field of your choice. e.g. new collection date. Save the file.
-3. This time, we will submit with the `submission_modify.xml`, which instructs the service to update an existing sample. The update uses the alias to detect existing samples, so it is important not to change the alias.
+1. First, open the `samples.xml` file and update a metadata field of your choice. e.g. new collection date. Save the file.
+2. This time, we will submit with the `submission_modify.xml`, which instructs the service to update an existing sample. The update uses the alias to detect existing samples, so it is important not to change the alias.
 ```bash
 curl -u username:password -F "SUBMISSION=@submission_modify.xml" -F "SAMPLE=@samples.xml" "https://wwwdev.ebi.ac.uk/ena/submit/drop-box/submit/"
 ```
-
-Check your sample on the browser again, and see that the metadata has been updated.
+3. check the receipt for successful update
 
 ```{warning}
 Although sample metadata can be updated, these updates are not automatically propagated to the EMBL files of their sequences. This 
