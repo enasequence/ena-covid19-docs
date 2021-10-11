@@ -11,13 +11,9 @@ and log in using your Webin credentials to access the landing page.  Here, menus
 in line with the metadata model. Study-related items are in yellow. Click on the 'Register Study'
 button.
 
-![](../images/wsp_landing.register_study.png)
-
-Fill out info here: 
-![](../images/wsp.register_study.png)
-![](../images/wsp_accessions.register_study.png)
-
-You're done!
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; height: auto;">
+    <iframe src="https://www.youtube.com/embed/3nArbshyzIk" frameborder="0" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
+</div><br/>
 
 ## Programmatic
 
