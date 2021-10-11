@@ -51,7 +51,7 @@ when your data should become public. For more information, see
 
 After running the above command, you will recieve a reply in the form of a 'receipt XML'. This 
 will contain information about the contents and success of your submission, as well as your study accession.
-It is very important take note of your study accession as we will use this later to submit other objects to this study.
+**It is very important take note of your study accession as we will use this later to submit other objects to this study.**
 
 For more general information on programmatic study registration, please see [our documentation](https://ena-docs.readthedocs.io/en/latest/submit/study/programmatic.html).
 

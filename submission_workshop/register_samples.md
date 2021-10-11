@@ -16,7 +16,7 @@ For this, we will use the materials in the `samples/interactive/` folder of the 
 
 In both cases, each row represents a sample and each column represents a metadata field.
 
-To upload, simply visit the (Webin Submissions Portal)[https://wwwdev.ebi.ac.uk/ena/submit/webin/] again and click on the green 'Register Samples' button. Choose to 'Upload filled spreadsheet' and upload the example sheet provided: `samples/interactive/sample_spreadsheet.tsv`. You should get a popup showing a successful submission and your 3 new sample accessions.
+To upload, simply visit the [Webin Submissions Portal](https://wwwdev.ebi.ac.uk/ena/submit/webin/) again and click on the green 'Register Samples' button. Choose to 'Upload filled spreadsheet' and upload the example sheet provided: `samples/interactive/sample_spreadsheet.tsv`. You should get a popup showing a successful submission and your 3 new sample accessions.
 
 ![](../images/wsp_accession.register_samples.png)
 
