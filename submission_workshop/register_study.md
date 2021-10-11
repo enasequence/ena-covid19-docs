@@ -23,7 +23,7 @@ we will need 2 XML files:
 - one XML to define the study metadata
 - and another to define the submission action
 
-Examples of both of these files are available in the example materials unzipped earlier (see [Workshop Setup](getting_started#workshop-setup)).
+Examples of both of these files are available in the example materials unzipped earlier (see [Workshop Setup](https://ena-covid19-docs.readthedocs.io/en/latest/submission_workshop/getting_started.html#workshop-setup)).
 Navigate to the `example_data/study/programmatic` directory to find the example files:
 
 ```bash
