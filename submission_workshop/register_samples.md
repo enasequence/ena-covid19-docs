@@ -65,7 +65,7 @@ Sample metadata can be updated at a later date. This can be achieved by editing 
 curl -u username:password -F "SUBMISSION=@submission_modify.xml" -F "SAMPLE=@samples.xml" "https://wwwdev.ebi.ac.uk/ena/submit/drop-box/submit/"
 ```
 
-Check your sample on the browser again, and see that the metadata has been updated *** IS THIS INSTANT?? ***
+Check your sample on the browser again, and see that the metadata has been updated.
 
 ```{warning}
 Although sample metadata can be updated, these updates are not automatically propagated to the EMBL files of their sequences. This 
