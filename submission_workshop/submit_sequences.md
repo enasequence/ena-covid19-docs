@@ -91,3 +91,7 @@ curl -X 'POST' -u user:pass   \
 ```
 
 To submit the sequence, simply remove `/validate` from the URL above and run again.
+
+```{tip}
+Finally, we'll move on to some [brokering-specific information](../data_brokering.html)
+```

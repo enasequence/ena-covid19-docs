@@ -98,5 +98,5 @@ In this spreadsheet, there are several fields you will need to update in order t
 In the Webin Submissions Portal dashboard, the reads menu is colour coded in orange. Choose the 'Submit Reads' button and upload the spreadsheet.
 
 ```{tip}
-Reads have now been submitted to your samples. Let's move on to [submitting sequences](submit_sequences.html).
+Reads have now been submitted to your samples. Let's move on to [submitting sequences](../submission_workshop/submit_sequences).
 ```

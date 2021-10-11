@@ -30,7 +30,7 @@ instead of `www`. Submissions to this service are removed nightly.
 
 ### Workshop Setup
 
-Before we begin, please download the example data [here](https://github.com/enasequence/ena-covid19-docs/blob/master/submission_workshop/example_data.zip) and unzip it. For this tutorial, you will need:
+Before we begin, please download the example data [here](https://github.com/enasequence/ena-covid19-docs/raw/master/submission_workshop/example_data.zip) and unzip it. For this tutorial, you will need:
 - a means to view/edit spreadsheets in Microsoft Excel format and a text editor,
 ideally something with syntax highlighting for XML formatted files.
 - a command line utility with [cURL](https://curl.se/) installed.
@@ -39,5 +39,5 @@ ideally something with syntax highlighting for XML formatted files.
 - an [installation of Webin-CLI](https://github.com/enasequence/webin-cli/tree/v4.1.0#readme), our command line interface for the submission of data files . This requires Java 1.8 or higher.
 
 ```{tip}
-Now, let's get started with [registering a study](register_study.html).
+Now, let's get started with [registering a study](register_study).
 ```
