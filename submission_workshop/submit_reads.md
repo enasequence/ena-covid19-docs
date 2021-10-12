@@ -42,7 +42,7 @@ java -jar webin-cli-4.2.0.jar -context reads -manifest paired_fastq_manifest_sam
 Do this for all 3 manifest files. As always, please note down the resulting run accessions (`ERR` numbers) for use later.
 
 ```{tip}
-Reads have now been submitted to your samples. Feel free to move on to [submitting sequences](../submit_sequences.html) if you do not intend to use the other submission methods listed below.
+Reads have now been submitted to your samples. Feel free to move on to [submitting sequences](submit_sequences) if you do not intend to use the other submission methods listed below.
 ```
 
 ## Data Upload

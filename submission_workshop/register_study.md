@@ -15,6 +15,8 @@ button.
     <iframe src="https://www.youtube.com/embed/3nArbshyzIk" frameborder="0" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
 </div><br/>
 
+XML files used to validate projects/studies: [ENA.project.xsd](https://github.com/enasequence/schema/blob/master/src/main/resources/uk/ac/ebi/ena/sra/schema/ENA.project.xsd) and [SRA.study.xsd](https://github.com/enasequence/schema/blob/master/src/main/resources/uk/ac/ebi/ena/sra/schema/SRA.study.xsd). 
+
 ## Programmatic
 
 Programmatic submissions generally require files in XML format. To register a new study,

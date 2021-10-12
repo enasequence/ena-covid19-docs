@@ -46,7 +46,7 @@ java -jar webin-cli-4.2.0.jar -context genome -manifest hCoV-19_isolate_1_manife
 
 ## Webin-CLI-REST
 
-A new JSON-based REST service was introduced this year specifically for the submission of SARS-CoV-2 sequences. In this service, sequences are not held in fasta files - rather, they are included directly in the JSON payload itself, greatly simplifying the process of submission. This is only possible due to the small size and relatively low complexity of the genome. For more information on this system, including useful code snippets, please see our [documentation here](../help_and_guides/webin-cli-rest.html).
+A new JSON-based REST service was introduced this year specifically for the submission of SARS-CoV-2 sequences. In this service, sequences are not held in fasta files - rather, they are included directly in the JSON payload itself, greatly simplifying the process of submission. This is only possible due to the small size and relatively low complexity of the genome. For more information on this system, including useful code snippets, please see our [documentation here](../help_and_guides/webin-cli-rest).
 
 <!-- :::{tabbed} Unix/MacOS -->
 ```bash
