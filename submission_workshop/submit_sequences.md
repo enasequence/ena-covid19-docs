@@ -1,6 +1,15 @@
 # Submitting Sequences
 
-Submission of genomes/consensus sequences can only be achieved through Webin-CLI.
+Sequences are submitted to ENA as analysis objects, as covered in the metadata model video. Once processed, they will be distributed as EMBL flatfiles. For an example of this format, see  [here](https://ena-docs.readthedocs.io/en/latest/submit/fileprep/flat-file-example.html).
+
+Largely, it is composed of
+1. metadata such as authors and addresses (contained in lines beginning with `R`, e.g. `RA`, `RL`, `RG`)
+2. sample information inside a `source` block
+3. the sequence itself
+
+```{note}
+Submission of genomes/consensus sequences can only be achieved through Webin-CLI. There is no XML-based option.
+```
 
 ## Webin-CLI
 
