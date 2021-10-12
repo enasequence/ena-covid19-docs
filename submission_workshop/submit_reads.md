@@ -4,10 +4,10 @@ While it is possible to submit raw sequencing read data both interactively and p
 
 We recommend using our command line interface Webin-CLI for submission of data files, as it will perform file upload automatically at time of metadata submission, making it a one step process instead of two.
 
-For this part of the workshop, we will submit the example paired fastq files in the `reads/` directory to our samples.
+For this part of the workshop, we will submit the example paired fastq files in the `runs/` directory to our samples.
 
 ```bash
-cd $WORKSHOP/reads/
+cd $WORKSHOP/runs/
 ls *.fastq.gz
 ```
 
@@ -15,7 +15,7 @@ ls *.fastq.gz
 
 Webin-CLI is a Java-based utility for simultaneously uploading and submitting different types of data files. If you haven't already done so, please see [here](https://github.com/enasequence/webin-cli/tree/v4.1.0#readme) for information on download and setup of this tool.
 
-The main input to the Webin-CLI application is a manifest file. Included in the `reads/webin-cli/` directory are manifest files for each sample. Please open `paired_fastq_manifest_sample1.txt` to see the format of these types of files, and what metadata is listed there. In the case of reads, this largely covers information about library preparation and sequencing platform. For information on permitted values, see [here](https://ena-docs.readthedocs.io/en/latest/submit/reads/webin-cli.html#metadata-validation).
+The main input to the Webin-CLI application is a manifest file. Included in the `runs/webin-cli/` directory are manifest files for each sample. Please open `paired_fastq_manifest_sample1.txt` to see the format of these types of files, and what metadata is listed there. In the case of reads, this largely covers information about library preparation and sequencing platform. For information on permitted values, see [here](https://ena-docs.readthedocs.io/en/latest/submit/reads/webin-cli.html#metadata-validation).
 
 ```{note}
 In order to link the data files to the objects we've already created (study, samples), we must add the accessions received in previous steps to the manifest files.
@@ -69,7 +69,7 @@ As in previous steps, this type of submission is performed using XML files. In t
 
 ![](../images/metadata_model_reads.png)
 
-Please find example XMLs for both experiments and reads in the `reads/programmatic` directory and make the following edits:
+Please find example XMLs for both experiments and reads in the `runs/programmatic` directory and make the following edits:
 1. in `experiments.xml`, replace all occurrences of `PRJEB####` with your study accession, and all occurrences of `SAME######` with the equivalent sample accessions.
 2. in `runs.xml`, replace the `checksum` field in each `<FILE>` tag with those that you computed earlier. These will be used to check for file corruption that may have occurred during upload.
 
@@ -88,7 +88,7 @@ curl -u username:password -F "SUBMISSION=@submission.xml" -F "EXPERIMENT=@experi
 
 ## Interactive
 
-Runs can be created through the [Webin Submissions Portal](https://wwwdev.ebi.ac.uk/ena/submit/webin/) using a tab-delimited (`.tsv`) spreadsheet. Please find an example spreadsheet in the `reads/interactive/` folder.
+Runs can be created through the [Webin Submissions Portal](https://wwwdev.ebi.ac.uk/ena/submit/webin/) using a tab-delimited (`.tsv`) spreadsheet. Please find an example spreadsheet in the `runs/interactive/` folder.
 
 In this spreadsheet, there are several fields you will need to update in order to correctly link and validate your data files.
 1. replace all occurrences of `ERS#######` with your equivalent sample accessions
