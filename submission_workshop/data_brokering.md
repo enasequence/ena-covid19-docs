@@ -43,7 +43,7 @@ _**Sample Display : broker account**_
 ```{tip}
 Whoever owns the account (normal or broker), has the ability to add contacts to the account. This refers to other individuals who will have access to the account. 
 ```
-The list of account contacts, along with the owner of the account, will be defined as ‘authors’ for assemblies, and will be converted and added to the RA lines of EMBL files. If you have a broker account, and you wish to submit assemblies, you must provide the author list within the manifest files/JSON document. If not provided, then it is automatically retrieved from the Webin account.
+The list of account contacts, along with the owner of the account, will be defined as ‘authors’ for assemblies, and will be converted and added to the `RA` lines of EMBL files. If you have a broker account, and you wish to submit assemblies, you must provide the author list within the manifest files/JSON document. If not provided, then it is automatically retrieved from the Webin account.
 
 ### Location
-The address provided within the Webin account is used to populate the RL lines within EMBL files, during assembly submission. Again if you have a broker account, you can specify the address by providing this in the manifest files. If not provided, then it is automatically retrieved from the Webin account.
+The address provided within the Webin account is used to populate the `RL` lines within EMBL files, during assembly submission. Again if you have a broker account, you can specify the address by providing this in the manifest files. If not provided, then it is automatically retrieved from the Webin account.
