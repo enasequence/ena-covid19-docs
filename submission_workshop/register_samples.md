@@ -75,8 +75,7 @@ is due to computational constraints.
 
 Updating samples will be reflected in the sample page in the ENA browser, the BioSamples record, and the [COVID-19 Data Portal](https://www.covid19dataportal.org/).
 
-If it is very important for your EMBL files to be updated with new metadata, please contact our helpdesk at virus-dataflow@ebi.ac.uk and 
-we will endeavour to assist you.
+If it is very important for your EMBL files to be updated with new metadata, please contact our helpdesk at [virus-dataflow@ebi.ac.uk](mailto:virus-dataflow@ebi.ac.uk) and we will endeavour to assist you.
 ```
 
 ```{tip}

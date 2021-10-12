@@ -2,7 +2,7 @@
 
 Data brokering is the act of submitting data to ENA on behalf of another person/institute. In many cases a centralised national brokering facility is the most efficient means of data management at large scale.
 
-In order to become a data broker, you must apply for brokering permissions to be added to your account. To apply, email [virus-dataflow@ebi.ac.uk](virus-dataflow@ebi.ac.uk), providing:
+In order to become a data broker, you must apply for brokering permissions to be added to your account. To apply, email [virus-dataflow@ebi.ac.uk](mailto:virus-dataflow@ebi.ac.uk), providing:
 - some background: how you came to be a broker and who you are brokering on behalf of
 - expected data volume: how much and how frequently you expect to submit
 - a broker name and short description: this will appear in our databases
