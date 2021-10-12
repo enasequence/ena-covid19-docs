@@ -1,15 +1,6 @@
 # Submitting Sequences
 
-Sequences are submitted to ENA as analysis objects, as covered in the metadata model video. Once processed, they will be distributed as EMBL flatfiles. For an example of this format, see  [here](https://ena-docs.readthedocs.io/en/latest/submit/fileprep/flat-file-example.html).
-
-Largely, it is composed of
-1. metadata such as authors and addresses (contained in lines beginning with `R`, e.g. `RA`, `RL`, `RG`)
-2. sample information inside a `source` block
-3. the sequence itself
-
-```{note}
 Submission of genomes/consensus sequences can only be achieved through Webin-CLI. There is no XML-based option.
-```
 
 ## Webin-CLI
 
@@ -100,6 +91,15 @@ curl -X 'POST' -u user:pass   \
 ```
 
 To submit the sequence, simply remove `/validate` from the URL above and run again.
+
+## Sequence Distribution
+
+Sequences are submitted to ENA as analysis objects, as covered in the metadata model video. Once processed, they will be distributed as **EMBL flat files**. For an example of this format, see  [here](https://ena-docs.readthedocs.io/en/latest/submit/fileprep/flat-file-example.html). Largely, it is composed of:
+1. metadata such as authors and addresses (contained in lines beginning with `R`, e.g. `RA`, `RL`, `RG`)
+2. sample information inside a `source` block
+3. the sequence itself
+
+Upon generation of the EMBL file, sequences also acquire a sequence accession, which takes the format of 2 upper case letters & 6 numbers, e.g. [LR991698](https://www.ebi.ac.uk/ena/browser/api/embl/LR991698.2?lineLimit=1000)
 
 ```{tip}
 Finally, we'll move on to some [brokering-specific information](data_brokering).
