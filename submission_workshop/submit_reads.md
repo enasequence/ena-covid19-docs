@@ -25,7 +25,8 @@ Please replace the `STUDY` and `SAMPLE` fields with your own accessions in each 
 First, using the `-context reads` setting in Webin-CLI, we will validate our submission using the `-validate` flag. This checks for errors in the manifest fields.
 
 ```bash
-java -jar webin-cli-4.2.0.jar -context reads -manifest webin-cli/paired_fastq_manifest_sample1.txt -userName user -password pass -test -validate
+cd webin-cli/
+java -jar webin-cli-4.2.0.jar -context reads -manifest paired_fastq_manifest_sample1.txt -inputDir ../ -userName user -password pass -test -validate
 ```
 
 If this passes validation, we can replace the `-validate` flag with `-submit` to perform the submission.
@@ -35,7 +36,7 @@ Please use the `-test` flag to submit to our test service
 ```
 
 ```bash
-java -jar webin-cli-4.2.0.jar -context reads -manifest webin-cli/paired_fastq_manifest_sample1.txt -userName user -password pass -test -submit
+java -jar webin-cli-4.2.0.jar -context reads -manifest paired_fastq_manifest_sample1.txt -inputDir ../ -userName user -password pass -test -submit
 ```
 
 Do this for all 3 manifest files. As always, please note down the resulting run accessions (`ERR` numbers) for use later.
