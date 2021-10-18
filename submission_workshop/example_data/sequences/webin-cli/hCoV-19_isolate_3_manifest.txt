@@ -5,7 +5,7 @@ ASSEMBLYNAME    hCoV-19_isolate_3
 ASSEMBLY_TYPE   COVID-19 outbreak
 COVERAGE        95.1
 PROGRAM MPileup
-PLATFORM	Illumina Miseq
+PLATFORM	ILLUMINA
 MINGAPLENGTH	1
 MOLECULETYPE	genomic RNA
 DESCRIPTION	example sequence #3 for workshop
@@ -13,4 +13,3 @@ FASTA       hCoV-19_isolate_3.fasta.gz
 CHROMOSOME_LIST	hCoV-19_isolate_3_chrm_list.txt.gz
 AUTHORS	ZW
 ADDRESS	EBI
-

@@ -5,7 +5,7 @@
   "name": "hCov-19_isolate_3",
   "coverage": 95.1,
   "program": "MPileup",
-  "platform": "Illumina Miseq",
+  "platform": "ILLUMINA",
   "minGapLength": 1,
   "moleculeType": "genomic RNA",
   "description": "example sequence #3 for workshop",
