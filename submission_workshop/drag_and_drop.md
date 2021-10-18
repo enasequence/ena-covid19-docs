@@ -14,6 +14,7 @@ Please note : due to the manual nature, this tool is only suitable for infrequen
 
 - Log in to your upload area through our [uploader webpage](https://ebi-ait.github.io/sars-cov2-data-upload/) using your secure key.
 ![](../images/drag_and_drop.key.png)
+<br/>
 
 - Simply drag the populated spreadsheet and associated data files into the upload box on the webpage. Once upload has completed, our team will be notified and we will begin your submission. 
 ![](../images/drag_and_drop.upload.png)
