@@ -10,7 +10,7 @@ Please note : due to the manual nature, this tool is only suitable for infrequen
 
 - Register your interest in using this tool by filling in [this form](https://www.covid19dataportal.org/submit-data/viral-sequence-form), providing us with some basic details about your dataset. If the tool is suitable for your assign your use case, a secure key will be assigned to you and we will send a metadata spreadsheet template.
 
-- Populate the spreadsheet template with your own metadata.
+- Populate the spreadsheet template with your own metadata. Please find a version of this spreadsheet populated using the example data we've used throughout this workshop in the `example_data/drag_and_drop` folder.
 
 - Log in to your upload area through our [uploader webpage](https://ebi-ait.github.io/sars-cov2-data-upload/) using your secure key.
 ![](../images/drag_and_drop.key.png)
