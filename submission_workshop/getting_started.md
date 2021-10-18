@@ -21,7 +21,7 @@ object holds.
 
 1. **programmatic**: most suitable for high-throughput, frequent submissions and automated systems
 2. **interactive**: most suitable for infrequent submission, or those more comfortable with spreadsheets
-3. **drag-and-drop uploader**: most suitable for once-off submission (not covered in this workshop as it is not suitable for brokering. For more information, see [here](https://ebi-ait.github.io/sars-cov2-data-upload/app-documentation))
+3. **drag-and-drop uploader**: most suitable for once-off submission of small-to-meduim scale datasets
 
 ```{note}
 We will use the test servers for this workshop. These service URLs begin with `wwwdev`

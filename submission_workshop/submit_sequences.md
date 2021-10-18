@@ -102,5 +102,5 @@ Sequences are submitted to ENA as analysis objects, as covered in the metadata m
 Upon generation of the EMBL file, sequences also acquire a sequence accession, which takes the format of 2 upper case letters & 6 numbers, e.g. [LR991698](https://www.ebi.ac.uk/ena/browser/api/embl/LR991698.2?lineLimit=1000)
 
 ```{tip}
-Finally, we'll move on to some [brokering-specific information](data_brokering).
+Next, we'll take a quick look at the [drag-and-drop uploader tool](drag_and_drop), which is capable of submitting all data types already covered in a single step!
 ```

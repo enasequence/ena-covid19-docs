@@ -2,8 +2,8 @@
 
 Studies, samples and data files can all be submitted in a single step using our drag-and-drop uploader tool. Metadata for all object types is provided in a single spreadsheet and uploaded along with your data files. A user support bioinformatician at the ENA will pick up your files and perform the submission on your behalf.
 
-```{caution}
-Please note : due to the manual nature, this tool is only suitable for infrequent submission of small-to-meduim-scale datasets. For frequent or larger scale submissions, please consider another method.
+```{warning}
+Please note : due to the manual nature, this tool is only suitable for infrequent submission of small-to-meduim-scale datasets. For frequent or larger scale submissions, please consider another method covered in this workshop.
 ```
 
 ## Steps
@@ -20,4 +20,10 @@ Please note : due to the manual nature, this tool is only suitable for infrequen
 
 ```{note}
 Our user support bioinformatician will validate your spreadsheet and data prior to submission. If there are any issues, we will reach out to you to support you to correct the problem.
+```
+
+For full documentation, please see [here](https://ebi-ait.github.io/sars-cov2-data-upload/app-documentation).
+
+```{tip}
+Finally, we'll move on to some [brokering-specific information](data_brokering).
 ```
