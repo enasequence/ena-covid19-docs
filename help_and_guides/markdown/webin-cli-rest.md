@@ -196,22 +196,30 @@ Please note that an accession will not be assigned when using the
 
 ### HTTP status codes
 
-<table style="border:1px solid black;border-collapse:collapse">
-    <tr>
-        <th>Code</th><th>Description</th>
-    </tr>
-    <tr>
-        <td>200</td><td>OK</td>
-    </tr>
-    <tr>
-        <td>400</td><td>Bad Request</td>
-    </tr>
-    <tr>
-        <td>401</td><td>Forbidden</td>
-    </tr>
-    <tr>
-        <td>500</td><td>Internal Server Error</td>
-    </tr>
+<table class="docutils align-default">
+<colgroup>
+<col style="width: 24%" />
+<col style="width: 76%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>Code</p></th>
+<th class="head"><p>Description</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>200</p></td>
+<td><p>OK</p></td>
+</tr>
+<tr class="row-odd"><td><p>400</p></td>
+<td><p>Bad Request</p></td>
+</tr>
+<tr class="row-even"><td><p>401</p></td>
+<td><p>Forbidden</p></td>
+</tr>
+<tr class="row-odd"><td><p>500</p></td>
+<td><p>Internal Server error</p></td>
+</tr>
+</tbody>
 </table></br>
 
 #### JSON response body example: Successful test service submission
