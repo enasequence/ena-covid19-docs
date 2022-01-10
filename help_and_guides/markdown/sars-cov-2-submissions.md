@@ -86,7 +86,6 @@ Please use the organism name `Severe acute respiratory syndrome coronavirus 2` a
 Data submissions which include metagenomic samples, should be registered with a relevant metagenome taxonomy - visit our FAQ on [Tips for Taxonomy](https://ena-docs.readthedocs.io/en/latest/faq/taxonomy.html#environmental-biome-level-taxonomy) for more information. A few examples include human lung metagenome - [433733](https://www.ebi.ac.uk/ena/browser/view/Taxon:433733), human saliva metagenome - [1679718](https://www.ebi.ac.uk/ena/browser/view/Taxon:1679718), human tracheal metagenome - [1712573](https://www.ebi.ac.uk/ena/browser/view/Taxon:1712573) or human metagenome - [646099](https://www.ebi.ac.uk/ena/browser/view/Taxon:646099), among many others. Please contact us if you require help with this.
 
 The most appropriate sample checklists depending on the source of your biological samples, are likely to include:
-
 - GSC MIxS host associated ([ERC000013](https://www.ebi.ac.uk/ena/browser/view/ERC000013))
 - GSC MIxS human associated ([ERC000014](https://www.ebi.ac.uk/ena/browser/view/ERC000014))
 
@@ -134,7 +133,6 @@ If submitting single contig assemblies, or for any other support or issues aroun
 
 ## Submitting Linked Human and Viral Datasets
 For linked human and viral data submissions please contact virus-dataflow@ebi.ac.uk. Viral data should be submitted to ENA, with the corresponding human data being submitted to the [European Genome Phenome Archive (EGA)](https://www.ebi.ac.uk/ega/home). The viral and human samples registered during each submission will reference each other to support data discovery and interoperability. This requires registration of three types of samples:
-
 1. Sample representing the human donor, registered at EGA.
 2. Human sample, registered at EGA.
 3. Viral sample, registered at ENA.

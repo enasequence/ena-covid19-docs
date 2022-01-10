@@ -8,7 +8,6 @@ Archive (ENA). For further information on submitting SARS-CoV-2 genomes,
 see our [SARS-CoV-2 Submission Instructions](https://ena-browser-docs.readthedocs.io/en/latest/help_and_guides/sars-cov-2-submissions.html#submitting-assemblies).
 
 There are two submission services: 
-
 - [Test service](https://wwwdev.ebi.ac.uk/ena/submit/webin-cli) 
 - [Production service](https://www.ebi.ac.uk/ena/submit/webin-cli)
 
@@ -27,19 +26,14 @@ following message:
 
 This service has two endpoints.
 
-1. Submit SARS-CoV-2 genomes:
+#### 1. Submit SARS-CoV-2 genomes:
+-  Test service : https://wwwdev.ebi.ac.uk/ena/submit/webin-cli/api/v1/genome/covid-19
+-  Production service: https://www.ebi.ac.uk/ena/submit/webin-cli/api/v1/genome/covid-19
 
--  Test service :
-   https://wwwdev.ebi.ac.uk/ena/submit/webin-cli/api/v1/genome/covid-19
--  Production service:
-   https://www.ebi.ac.uk/ena/submit/webin-cli/api/v1/genome/covid-19
+#### 2. Validate but do NOT submit SARS-CoV-2 genomes:
 
-2. Validate but do NOT submit SARS-CoV-2 genomes:
-
--  Test service:
-   https://wwwdev.ebi.ac.uk/ena/submit/webin-cli/api/v1/genome/covid-19/validate
--  Production service:
-   https://www.ebi.ac.uk/ena/submit/webin-cli/api/v1/genome/covid-19/validate
+-  Test service: https://wwwdev.ebi.ac.uk/ena/submit/webin-cli/api/v1/genome/covid-19/validate
+-  Production service: https://www.ebi.ac.uk/ena/submit/webin-cli/api/v1/genome/covid-19/validate
 
 The second endpoint can be used to test if a SARS-CoV-2 genome is valid
 without submitting it into ENA.
