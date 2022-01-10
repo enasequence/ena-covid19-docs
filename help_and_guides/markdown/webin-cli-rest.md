@@ -1,6 +1,6 @@
-#Webin SARS-CoV-2 Genome Submission Web API
+# Webin SARS-CoV-2 Genome Submission Web API
 
-##Introduction
+## Introduction
 
 Webin SARS-CoV-2 Genome Submission Web API is a JSON based service used
 to submit SARS-CoV-2 genome assemblies to the European Nucleotide
@@ -10,7 +10,6 @@ see our [SARS-CoV-2 Submission Instructions](https://ena-browser-docs.readthedoc
 There are two submission services: 
 
 - [Test service](https://wwwdev.ebi.ac.uk/ena/submit/webin-cli) 
-
 - [Production service](https://www.ebi.ac.uk/ena/submit/webin-cli)
 
 The test service is recreated from the full content of the production
@@ -24,7 +23,7 @@ following message:
     "info":["This submission is a TEST submission and will be discarded within 24 hours"] 
 ```
 
-##Service endpoints
+## Service endpoints
 
 This service has two endpoints.
 
@@ -45,9 +44,9 @@ This service has two endpoints.
 The second endpoint can be used to test if a SARS-CoV-2 genome is valid
 without submitting it into ENA.
 
-###Submission process
+### Submission process
 
-###Pre-register Study and Sample
+### Pre-register Study and Sample
 
 Each submission must be associated with a pre-registered study and a
 sample.
@@ -56,7 +55,7 @@ Please find instruction on how to register studies and samples below:
 - [Register a Study](https://ena-docs.readthedocs.io/en/latest/submit/study.html)
 - [Register a Sample](https://ena-docs.readthedocs.io/en/latest/submit/samples.html)
 
-###Authentication
+### Authentication
 
 This service supports basic HTTP authentication only. Please use your
 Webin submission account name (Webin-N) as the username with your Webin
@@ -70,7 +69,7 @@ option:
     curl -X 'POST'  -u Webin-N:password  'https://wwwdev.ebi.ac.uk/ena/submit/webin-cli...'
 ```
 
-###JSON payload
+### JSON payload
 
 Both the submission and validation endpoints require a JSON payload in
 the HTTP body. Below, mandatory fields are marked by \* and field
@@ -105,7 +104,7 @@ The `coverage` value should represent the mean depth of sequencing coverage acro
 The `minGapLength` value controls the generation of `assembly_gap` features in EMBL and GenBank files (see [here](https://www.insdc.org/files/feature_table.html#7.2) for more information). Only gaps longer than, or equal to, the `minGapLength` value will be listed in the file header. If unsure, please omit this value to fall back to our internal default value.
 ```
 
-####Example
+#### Example
 
 ```json
     {
@@ -124,9 +123,9 @@ The `minGapLength` value controls the generation of `assembly_gap` features in E
     }
 ```
 
-###Submission
+### Submission
 
-####Example using curl
+#### Example using curl
 
 ```bash
     curl -X 'POST' -u Webin-N:password   \
@@ -149,7 +148,7 @@ The `minGapLength` value controls the generation of `assembly_gap` features in E
     }'
 ```
 
-####Example using python
+#### Example using python
 
 ```python
 
@@ -192,7 +191,7 @@ The `minGapLength` value controls the generation of `assembly_gap` features in E
             print("{} : {}".format(sample['name'], receipt))
 ```
 
-###JSON response and HTTP status code
+### JSON response and HTTP status code
 
 HTTP status code 200 indicates that the submission was successful. More
 information is available from the JSON response returned in the response
@@ -201,9 +200,9 @@ body including the assigned accession number and any validation errors.
 Please note that an accession will not be assigned when using the
 `/validate` endpoint.
 
-###HTTP status codes
+### HTTP status codes
 
-<table>
+<table style="border:1px solid black;border-collapse:collapse">
     <tr>
         <th>Code</th><th>Description</th>
     </tr>
@@ -219,9 +218,9 @@ Please note that an accession will not be assigned when using the
     <tr>
         <td>500</td><td>Internal Server Error</td>
     </tr>
-</table>
+</table></br>
 
-####JSON response body example: Successful test service submission
+#### JSON response body example: Successful test service submission
 
 ```json
     {
@@ -234,7 +233,7 @@ Please note that an accession will not be assigned when using the
     }
 ```
 
-####JSON response body example: Successful production service submission
+#### JSON response body example: Successful production service submission
 
 ```json
     {
@@ -245,7 +244,7 @@ Please note that an accession will not be assigned when using the
     }
 ```
 
-####JSON response body example: Successful validation
+#### JSON response body example: Successful validation
 
 ```json
     {
@@ -256,7 +255,7 @@ Please note that an accession will not be assigned when using the
     }
 ```
 
-####JSON response body example: Failed validation
+#### JSON response body example: Failed validation
 
 Invalid molecule type:
 
