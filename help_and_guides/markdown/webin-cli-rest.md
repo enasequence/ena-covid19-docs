@@ -26,19 +26,20 @@ following message:
 
 This service has two endpoints.
 
-#### 1. Submit SARS-CoV-2 genomes:
--  Test service : https://wwwdev.ebi.ac.uk/ena/submit/webin-cli/api/v1/genome/covid-19
--  Production service: https://www.ebi.ac.uk/ena/submit/webin-cli/api/v1/genome/covid-19
+###### Submit SARS-CoV-2 genomes: ######
 
-#### 2. Validate but do NOT submit SARS-CoV-2 genomes:
+-  Test service : `https://wwwdev.ebi.ac.uk/ena/submit/webin-cli/api/v1/genome/covid-19`
+-  Production service: `https://www.ebi.ac.uk/ena/submit/webin-cli/api/v1/genome/covid-19`
 
--  Test service: https://wwwdev.ebi.ac.uk/ena/submit/webin-cli/api/v1/genome/covid-19/validate
--  Production service: https://www.ebi.ac.uk/ena/submit/webin-cli/api/v1/genome/covid-19/validate
+###### Validate but do NOT submit SARS-CoV-2 genomes: ######
+
+-  Test service: `https://wwwdev.ebi.ac.uk/ena/submit/webin-cli/api/v1/genome/covid-19/validate`
+-  Production service: `https://www.ebi.ac.uk/ena/submit/webin-cli/api/v1/genome/covid-19/validate`
 
 The second endpoint can be used to test if a SARS-CoV-2 genome is valid
 without submitting it into ENA.
 
-### Submission process
+## Submission process
 
 ### Pre-register Study and Sample
 
@@ -196,6 +197,7 @@ Please note that an accession will not be assigned when using the
 
 ### HTTP status codes
 
+<!-- use readthedocs built-in HTML style -->
 <table class="docutils align-default">
 <colgroup>
 <col style="width: 24%" />
